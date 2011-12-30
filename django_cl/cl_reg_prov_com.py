@@ -613,7 +613,6 @@ for name in regiones_names:
     
 # Makes a tuple
 REGION_PROVINCIA_CHOICES = tuple(_rpc_list)
-pprint.pprint(REGION_PROVINCIA_CHOICES)
 
 # Makes a choice of communes grouped by provice, keeping communes
 # sorted by code
